@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Xcell Labs : Product List</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- for fontawesome icon css file -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <!-- superslides css -->
+    <link rel="stylesheet" href="css/superslides.css">
+    <!-- for content animate css file -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- slick slider css file -->
+    <link href="css/slick.css" rel="stylesheet">
+    <!-- website theme color file -->
+    <link id="switcher" href="css/themes/red-theme.css" rel="stylesheet">
+    <!-- main site css file -->
+    <link href="style.css" rel="stylesheet">
+    <!-- google fonts  -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/XCELL%20LOGO%20sm.png" type="image/x-icon">
+	<!-- table -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+		h2 {
+			color: green;
+			font-family:  "Raleway",sans-serif;
+			font-weight: bold;
+		}
+	
+	
+        #imgbanner {
+            background-image: url("img/Product01.JPG");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            display: inline;
+            float: left;
+            height: 300px;
+            margin-top: 77px;
+            padding: 118px 0;
+            text-align: center;
+            width: 100%;
+        }
+        #imgbanner h2{
+            color: yellow;
+            text-align: center;
+			margin-top: 32px;
+            font-size: 300%;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .dropbtn {
+            background-color: white;
+            color: #5e5e5e;
+            padding: 13px;
+            font-size: 15px;
+            font-family: "Raleway",sans-serif;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropbtn:hover, .dropbtn:focus {
+            background-color: white;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown a:hover {background-color: #f1f1f1}
+
+        .show {display:block;}
+		
+		
+		.navbar {
+  margin-bottom: 0;
+  z-index: 99999;
+}
+.navbar-default {
+  border-color: #e7e7e7;
+  /*padding: 10px 0px;*/
+  background: #ffffff; /* Old browsers */
+}
+.navbar-brand{
+  font-size: 25px;
+  font-family: "Raleway",sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.navbar-brand span{
+  text-transform: uppercase;
+}
+.header_gradient{
+  background: -moz-linear-gradient(bottom,  #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* IE10+ */
+background: linear-gradient(to top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+}
+.navbar-default .navbar-nav > li{
+  position: relative;
+}
+.navbar-default li.active:after {
+  bottom: -42px;
+  color: #fff;
+  content: "";
+  font-family: FontAwesome;
+  font-size: 35px;
+  left: 49%;
+  margin-left: -8px;
+  position: absolute;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.05);
+}
+.navbar-default .navbar-nav > li > a {
+  color: #5e5e5e;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus{
+   /*border-radius: 4px;*/
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: #fff; 
+}
+.navbar-nav > li > .dropdown-menu { 
+  margin-top: 13px;
+}
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:hover{
+  background-color: #fff;
+}
+
+.navbar-brand>img{
+  width: 100%;
+}
+.navbar-brand>img:hover{
+  opacity: 1;
+}
+.custom_nav {
+  padding: 13px 0;
+}
+.custom_nav .dropdown-menu{
+  padding:15px;
+}
+.dropdown-menu > li > a {
+  color: #5e5e5e;  
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus{
+  border-radius: 4px; 
+}
+
+ hr {
+	border-style: bold;
+	border-color: black;
+ }
+ 
+ strong {
+	color: red;
+ }
+ italic {
+	color: green;
+	font-family: 'Open Sans', sans-serif;
+ }
+ 
+ thead {
+	border: solid;
+	border-color: black;
+ }
+ 
+ tbody {
+	border: solid;
+	border-color: black;
+ }
+ td {
+	border: solid;
+	border-color: black;
+ }
+ th {
+	border: solid;
+	border-color: black;
+ }
+ tr {
+	border: solid;
+	border-color: black;
+ }
+ 
+    </style>
+</head>
+<body>
+
+<!-- =========================
+   //////////////This Theme Design and Developed //////////////////////
+   //////////// by creativeprogrammers======================-->
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+
+<!-- End Preloader -->
+<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+
+<!-- start navbar -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand-responsive" href="index.html"><img src="img/logo.png" height="72px" width="72px"  alt="logo"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse navbar_area">
+            <ul class="nav navbar-nav navbar-right custom_nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Operations <span class="caret"></span></button>
+                    <ul id="myDropdown" class="dropdown-content">
+                        <li><a href="R&D.html">R&D</a></li>
+                        <li><a href="manu.html">Manufacturing</a></li>
+                        <li><a href="qa.html">QC</a></li>
+						<li><a href="Productlist.html">Product List</a></li>
+                    </ul>
+                </li>
+                <li><a href="career.html">Speciality</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+<!-- End navbar -->
+
+<!-- start banner area -->
+<section id="imgbanner">
+    <h2 class="text-responsive"><span>Product List</span></h2>
+</section>
+<!-- End banner area -->
+<section id="blogArchive">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md- col-sm-12">
+                <div class="blogArchive_area">
+                    <!-- start page left side -->
+                    <div class="single_archiveblog">
+                        <div class="archiveblog_right page_left">	
+						  <h2>Company wise Product List</h2>
+						  <hr>
+						  <p></p>            
+						  <table class="table table-bordered">
+							<thead>
+							  <tr>
+								<th>Clients</th>
+								<th>Brand Name And Compositions</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td><italic>INDOCO REMEDIES LTD</italic></td>
+								<td><strong>Brand Name :</strong> ABZ 10ml<br><strong>Composition :</strong> Albendazole  200mg <br><hr>
+									<strong>Brand Name :</strong> ATM 100/200<br><strong>Composition :</strong> Azithromycin 100MG/200mg <br><hr>  
+									<strong>Brand Name :</strong> ATM XL 100/200 <br><strong>Composition :</strong> Azithromycin 100MG/200mg<br><hr> 
+									<strong>Brand Name :</strong> CITAL <br><strong>Composition :</strong> Sodium Acid Citrate 1.37gm<br><hr>
+									<strong>Brand Name :</strong> CYCLOPAM DROPS<br><strong>Composition :</strong> Dicyclomine Hcl  10mg,Simethicon 133.33mg<br><hr> 
+									<strong>Brand Name :</strong> CYCLOPAM SUSP <br><strong>Composition :</strong> Dicyclomine Hcl  10mg,Simethicon 133.33mg<br><hr>
+									<strong>Brand Name :</strong> FEBREX PLUS SYRUP AF <br><strong>Composition :</strong> Phenylephrine Hcl 5mg,Chlorpheniramine Maleate 2mg,Sodium Citrate 15mg<br><hr>
+									<strong>Brand Name :</strong> FEBREX PLUS SUSP DS  <br><strong>Composition :</strong> Paracetamol 250mg,Phenylephrine Hcl 5mg,Chlorpheniramine Maleate 2mg<br><hr>
+									<strong>Brand Name :</strong> FEBREX PLUS ORAL DROP <br><strong>Composition :</strong> Paracetamol 125mg,Phenylephrine Hcl 2.5mg,Chlorpheniramine Maleate 1mg<br><hr>
+									<strong>Brand Name :</strong> FEBREX PLUS SYRUP <br><strong>Composition :</strong> Paracetamol 125mg,Phenylephrine Hcl 5mg,Chlorpheniramine Maleate 1mg<br><hr>
+									<strong>Brand Name :</strong> FEBREX  SYRUP <br><strong>Composition :</strong> Paracetamol 125mg<br><hr>
+									<strong>Brand Name :</strong> FEBREX 250 SUSP  <br><strong>Composition :</strong> Paracetamol 250mg<br><hr>
+									<strong>Brand Name :</strong> TRIZ SYRUP <br><strong>Composition :</strong> Cetirizine Hydrochloride 5mg<br><hr>
+									<strong>Brand Name :</strong> TUSPEL COUGH SYRUP<br><strong>Composition :</strong> Ammonium chloride 100mg,Diphenhydramine 10mg,Sodium Citrate 60mg<br><hr> 
+									<strong>Brand Name :</strong> TUSPEL PLUS EXPT <br><strong>Composition :</strong> Bromhexine Hcl 4mg,Terbutaline 1.25mg,Ammonium Chloride 50mg,Menthol 0.75mg<br>
+								</td>
+							  </tr>
+							  <tr>
+								<td><italic>MACLEODS LTD</italic></td>
+								<td><strong>Brand Name :</strong> MACBERRY XT  <br> <strong>Composition : </strong> Terbutaline 1.25mg,Ambroxol Hcl 15mg,Guaiphenesin 50mg,Menthol 1.5mg<br>
+								</td>
+								
+							  </tr>
+							  <tr>
+								<td><italic>GUFIC BIOSCIENCES LTD</italic></td>
+								<td><strong>Brand Name :</strong> GUFIGEL MPS  Mint/Orange Flavour  <br> <strong> Composition :</strong> Dried Alluminium 250mg,Magnsium Hydroxide 250mg,Simethicon 25mg<br><hr>
+									<strong>Brand Name :</strong> NIDIL SUSP  <br> <strong>Composition :</strong> Ofloxacine 50mg
+								
+								</td>
+								
+							  </tr>
+							  <tr>
+								<td><italic>INTAS PHARMACEUTICALS LTD</italic></td>
+								<td><strong>Brand Name :</strong> POTRATE SF <br> <strong>Composition :</strong> Potassium Citrate 1100mg,Citric Acid Mono 334mg<br><hr>
+									<strong>Brand Name :</strong> DIVAA 250/500  SUSP <br> <strong>Composition :</strong> Divalproex Sodium 250mg/500mg
+								</td>
+								
+							  </tr>
+							  <tr>
+								<td><italic>DR.MOREPEN LTD</italic></td>
+								<td><strong>Brand Name :</strong> LEMOLATE GOLD  <br> <strong>Composition :</strong>Diphen  Hydramine 12.5mg,Sodium Citrate 55mg,Ammonium Chloride 125mg,Menthol 1.5mg,Terpin  Hydrate 7.5mg</td>
+								
+							  </tr>
+							  <tr>
+								<td><italic>LIVINOR PHARMA</italic></td>
+								<td><strong>Brand Name :</strong> FEVANIL 125 SUSP  <br> <strong>Composition :</strong> Paracetamol 125mg<br><hr>
+									<strong>Brand Name :</strong> FEVANIL 250 SUSP  <br> <strong>Composition :</strong> Paracetamol 250mg<br><hr>
+									<strong>Brand Name :</strong> ZITHROBACT 100/200<br> <strong>Composition :</strong> Azithromycin 100MG/200mg<br><hr>
+									<strong>Brand Name :</strong> REXCORE FLU SYRUP  <br> <strong>Composition :</strong> Phenylephrine Hcl 5mg,Chlorpheniramine Maleate 2mg<br><hr>
+									<strong>Brand Name :</strong> EMEFIX SYRUP  <br> <strong>Composition :</strong> Ondansetron Hcl 2mg<br><hr>
+									<strong>Brand Name :</strong> LIVOVIT SYRUP  <br> <strong>Composition :</strong> Multivitamin<br><hr>
+									<strong>Brand Name :</strong> LIVOVIT DROP  <br> <strong>Composition :</strong> Multivitamin
+								</td>	
+							  </tr>
+							  <tr>
+								<td><italic>TRIGLOBAL BIOSCIENCES</italic></td>
+								<td><strong>Brand Name :</strong> LYZI B SYRUP <br> <strong>Composition :</strong> Multivitamin <br><hr>
+									<strong>Brand Name :</strong> TRIZINC SYRUP  <br> <strong>Composition :</strong> Zinc Acetate 20mg<br><hr>
+									<strong>Brand Name :</strong> TRIVIT -M SYRUP  <br> <strong>Composition :</strong> Multivitamin
+								</td>
+								
+							  </tr>
+							  <tr>
+								<td><italic>CORONA REMEDIES PVT LTD</italic></td>
+								<td><strong>Brand Name :</strong> RESPICURE M SYRUP  <br> <strong>Composition :</strong> Levocetrizine Hcl 2.5mg,Montelukast  Sodium 4mg<br><hr>
+									<strong>Brand Name :</strong> NEW RESPICURE SYRUP  <br> <strong>Composition :</strong> Terbutaline 1.25mg,Ambroxol Hcl 15mg,Guaiphenesin 50mg,Menthol 2.5mg<br><hr>
+									<strong>Brand Name :</strong> D3 HD DROP  <br> <strong>Composition :</strong> Vitamin D3 400 IU<br><hr>
+									<strong>Brand Name :</strong> ELU SYRUP  <br> <strong>Composition :</strong> Levocetrizine Hcl 2.5mg<br><hr>
+									<strong>Brand Name :</strong> ULPAN GEL  <br> <strong>Composition :</strong> Dried Alluminium 291mg,Magnsium Hydroxide 98mg,Oxetacaine 10mg<br><hr>
+									<strong>Brand Name :</strong> MAC OS  <br> <strong>Composition :</strong> Sucralfate 1 gm,Oxetacaine 10mg
+								</td>
+								
+							  </tr>
+							  <tr>
+								<td><italic>JAY LIFE CARE PVT LTD</italic></td>
+								<td><strong>Brand Name :</strong> J-COFF DC <br> <strong>Composition :</strong> Dextromethorphene 10mg,Chlorpheniramine Maleate 4mg,Menthol 1mg<br><hr>
+									<strong>Brand Name :</strong> J-COFF TAG  <br> <strong>Composition :</strong> Terbutaline 1.5mg,Ambroxol Hcl 15mg,Guaiphenesin 50mg,Menthol 1mg<br><hr>
+									<strong>Brand Name :</strong> J COLD  <br> <strong>Composition :</strong> Paracetamol 125mg,Phenylephrine Hcl 5mg,Chlorpheniramine Maleate 1mg,Sodium Citrate 60mg<br><hr>
+									<strong>Brand Name :</strong> J COLD AF <br> <strong>Composition :</strong> Phenylephrine Hcl 5mg,Chlorpheniramine Maleate 2mg<br><hr>
+									<strong>Brand Name :</strong> J COOL <br> <strong>Composition :</strong> Magaldrate 400mg,Simethicon 20mg<br><hr>
+									<strong>Brand Name :</strong> J ONDTRON <br> <strong>Composition :</strong> Ondansetron Hcl 2mg<br><hr>
+									<strong>Brand Name :</strong> J PARA 125 <br> <strong>Composition :</strong> Paracetamol 125mg<br><hr>
+									<strong>Brand Name :</strong> J PARA 250 <br> <strong>Composition :</strong> Paracetamol 250mg<br><hr>
+									<strong>Brand Name :</strong> J PARA M <br> <strong>Composition :</strong> Paracetamol 125mg,Mefanamic Acid 50mg
+								</td>
+								
+							  </tr>
+							  <tr>
+								<td><italic>SOLVIS PHARMACEUTICALS</italic></td>
+								<td><strong>Brand Name :</strong> PARARELIEF 250   <br> <strong>Composition :</strong> Paracetamol 250mg<br><hr>
+									<strong>Brand Name :</strong> FLURELIEF DS  <br> <strong>Composition :</strong> Paracetamol 250mg,Phenylephrine Hcl 5mg,Chlorpheniramine Maleate 2mg<br><hr>
+									<strong>Brand Name :</strong> MULTIROCK  <br> <strong>Composition :</strong> Multivitamin<br><hr>
+									<strong>Brand Name :</strong> MEFNAVIZ -P SUSP  <br> <strong>Composition :</strong> Paracetamol 125mg,Mefanamic Acid 50mg<br><hr>
+									<strong>Brand Name :</strong> D3 STRONG DROP  <br> <strong>Composition :</strong> Vitamin D3 400 IU
+								</td>
+								
+							  </tr>
+							  <tr>
+								<td><italic>M/S VIILBERY HEALTHCARE PVT LTD</italic></td>
+								<td><strong>Brand Name :</strong> BERIDIL  <br> <strong>Composition :</strong> Terbutaline 1.25mg,Ambroxol Hcl 15mg,Guaiphenesin 50mg<br><hr>
+									<strong>Brand Name :</strong> EMNIL SYRUP  <br> <strong>Composition :</strong> Ondansetron Hcl 2mg<br><hr>
+									<strong>Brand Name :</strong> ALOCET SYRUP  <br> <strong>Composition :</strong> Cetirizine Hydrochloride 5mg<br><hr>
+									<strong>Brand Name :</strong> ALOCET XL SYRUP  <br> <strong>Composition :</strong> Ambroxol Hcl 30mg,Cetirizine Hcl 2.5mg
+								</td>
+								
+							  </tr>
+							  <tr>
+								<td><italic>HELIOS LABORATORIES</italic></td>
+								<td><strong>Brand Name :</strong> TURBUXIN EXPT  <br> <strong>Composition :</strong> Terbutaline 1.25mg, 15mg,Bromhexine Hcl 4mg,Guaiphenesin 50mg,Menthol 2.5mg<br><hr>
+									<strong>Brand Name :</strong> I-100 SUSP  <br> <strong>Composition :</strong> Ferrous  Ascorbate 30mg,Folic Acid 550mcg
+								</td>
+								
+							  </tr>
+							  <tr>
+								<td><italic>SHANKUS ACME </italic></td>
+								<td><strong>Brand Name :</strong> ACTACOF-DX SYRUP  <br> <strong>Composition :</strong> Dextromethorphene 10mg,Chlorpheniramine Maleate 2mg,Phenylephrine 5mg<br><hr>
+									<strong>Brand Name :</strong> ZYLID 100/200  <br> <strong>Composition :</strong> Azithromycin 100MG/200mg<br><hr>
+									<strong>Brand Name :</strong> ACTACOLD  <br> <strong>Composition :</strong> Paracetamol 125mg,Phenylephrine Hcl 2.5mg,Chlorpheniramine Maleate 1mg
+								</td>
+								
+							  </tr>
+							  <tr>
+								<td><italic>EMENOX  HEALTHCARE</italic></td>
+								<td><strong>Brand Name :</strong> BRAVITIM SYRUP  <br> <strong>Composition :</strong> Multivitamin, Multimineral</td>
+								
+							  </tr>
+							  
+							</tbody>
+						  </table>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- start footer -->
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="footer_top">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="single_footer_top">
+                                <h2>We Are Here</h2>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54741.65651561076!2d76.75584271815572!3d30.960614981873583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39055f9a5f7ac64f%3A0x5809b42ac0e8aa7!2sBaddi%2C+Himachal+Pradesh%2C+India!5e0!3m2!1sen!2s!4v1489658523908" width="300" height="300" frameborder="5px" style="border:5" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="single_footer_top">
+                                <h2>Address</h2>
+                                <p>146, Export promotion Industrial Park-1,<br>
+                                    Jarmajri, Baddi,<br>
+                                    District Solan, (H.P.) 173205.
+                                </p>
+                            </div>
+                            <div class="single_footer_top contact_mail">
+                                <h2>Contact us</h2>
+                                <p><span>09816027090 / 09816644001 / 09318771090</span> <br>or<br> <a href="mailto:xcelllabs146@gmail.com "> <stron>xcelllabs146@gmail.com </stron></a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="single_footer_top">
+                                <h2>Page Links </h2>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a class="active" href="R&D.html">R&D</a></li>
+                                    <li><a href="manu.html">Manufacturing</a></li>
+                                    <li><a href="qa.html">Q.C</a></li>
+									<li><a href="Productlist.html">Products</a></li>
+                                    <li><a href="career.html">Speciality</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="single_footer_top">
+                                <h2>Social links</h2>
+                                <ul class="sociallink_nav">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="footer_bottom">
+                    <div class="copyright">
+                        <p>Xcell Labs. All right reserved.</p>
+                    </div>
+                    <div class="developer">
+                        <p>Designed By <a href="#" rel="nofollow">Creative Programmers</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End footer -->
+
+
+<!-- jQuery Library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- For content animatin  -->
+<script src="js/wow.min.js"></script>
+<!-- bootstrap js file -->
+<script src="js/bootstrap.min.js"></script>
+<!-- superslides slider -->
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.animate-enhanced.min.js"></script>
+<script src="js/jquery.superslides.min.js" type="text/javascript" charset="utf-8"></script>
+<!-- slick slider js file -->
+<script src="js/slick.min.js"></script>
+<!-- Google map -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script src="js/jquery.ui.map.js"></script>
+
+<!-- custom js file include -->
+<script src="js/custom.js"></script>
+
+<!-- dropdown -->
+<script>
+    /* When the user clicks on the button,
+     toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+
+<!-- chart -->
+<script src="js/myscript.js"></script>
+</body>
+</html>
