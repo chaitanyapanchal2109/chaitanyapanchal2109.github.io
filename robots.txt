@@ -1,0 +1,18 @@
+User-Agent: Googlebot
+Disallow: /local/
+Disallow: /assets/
+
+User-Agent: Slurp
+Disallow: /local/
+Disallow: /assets/
+
+User-Agent: bingbot
+Disallow: /local/
+Disallow: /assets/
+
+User-Agent: *
+Disallow:
+
+
+
+sitemap: http://www.xcelllabs.in/sitemap.xml
